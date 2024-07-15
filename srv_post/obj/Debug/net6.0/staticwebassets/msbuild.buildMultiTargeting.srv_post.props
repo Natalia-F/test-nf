@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\srv_post.props" />
+</Project>
