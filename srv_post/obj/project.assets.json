@@ -902,11 +902,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\postulaciones\\tcit\\srv_post\\srv_post.csproj",
+      "projectUniqueName": "D:\\postulaciones\\tcit\\test-nf\\srv_post\\srv_post.csproj",
       "projectName": "srv_post",
-      "projectPath": "D:\\postulaciones\\tcit\\srv_post\\srv_post.csproj",
+      "projectPath": "D:\\postulaciones\\tcit\\test-nf\\srv_post\\srv_post.csproj",
       "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
-      "outputPath": "D:\\postulaciones\\tcit\\srv_post\\obj\\",
+      "outputPath": "D:\\postulaciones\\tcit\\test-nf\\srv_post\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",

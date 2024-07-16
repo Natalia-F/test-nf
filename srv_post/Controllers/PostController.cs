@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Hosting;
+using srv_post.Models;
 using srv_post.Services;
 
 namespace srv_post.Controllers
@@ -26,11 +27,11 @@ namespace srv_post.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddPost([FromQuery] string name, [FromQuery] string description)
+        public async Task<IActionResult> AddPost([FromBody] PostModel request)
         {
             try
             {
-                var result = await postService.AddPost(name, description);
+                var result = await postService.AddPost(request.NamePost, request.Description);
                 return Created("", result);
             }
             catch (Exception e)
